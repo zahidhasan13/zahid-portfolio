@@ -1,0 +1,116 @@
+/* Custom Css */
+#header-section{}
+.navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    padding: 20px;
+}
+.logo{}
+.nav li{}
+.nav li .nav-link{
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+.nav li .nav-link:hover{
+    color: var(--primary-color);
+}
+/* Hero */
+.hero{
+    background: #F9F9FF;
+    padding-top: 100px;
+}
+.hero-text{
+    flex-basis: 48%;
+    padding-top: 130px;
+}
+.hero-text h5, .about-text h5{
+    font-size: 0.9rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.hero-text h1{
+    font-size: 3.1rem;
+    font-weight: bold;
+    margin: 30px 0;
+}
+.hero-text p, .about-text p{
+    font-size: 0.9rem;
+    color: var(--text-color);
+}
+.hero-text a, .about-text a{
+    background: var(--gradient-color);
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 2px;
+    margin-top: 10px;
+}
+.hero-text a:hover, .about-text a:hover{
+    box-shadow: var(--box-shadow);
+}
+.hero-img{
+    flex-basis: 48%;
+}
+.hero-img img{
+    width: 480px;
+}
+/* About */
+#about-section{
+    padding-top: 150px;
+}
+.about-img{
+    flex-basis: 48%;
+}
+.about-img img{}
+.about-text{
+    flex-basis: 48%;
+    margin-top: 20px;
+}
+.about-text h1{
+    font-size: 2.1rem;
+    font-weight: 600;
+    margin: 40px 0;
+}
+/* Service */
+#service-section{}
+.section-title{
+    text-align: center;
+}
+.section-title h2{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.section-title p{
+    font-size: 0.9rem;
+    color: var(--text-color);
+}
+.service-item{
+    flex-basis: 30%;
+    text-align: center;
+    margin-top: 60px;
+
+    
+}
+.service-item span i{
+    font-size: 2rem;
+    transition: all 0.6s ease;
+}
+.service-item h2 a{
+    display: inline-block;
+    font-size: 1.3rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--heading-color);
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+.service-item p{}
+.service-item:hover i{
+    color: var(--primary-color);
+}
+.service-item:hover h2 a{
+    color: var(--primary-color);
+}
